@@ -1,7 +1,7 @@
 {
   "name": "zen",
   "description": "Zen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
       "ghost": ">=3.38.0",
       "ghost-api": "v3"
@@ -12,9 +12,9 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "PixelatedDeveloper",
-    "email": "support@pixelateddeveloper.com",
-    "url": "https://pixelateddeveloper.com"
+    "name": "Michael Boumann",
+    "email": "support@michaelboumann.com",
+    "url": "https://michaelboumann.com"
   },
   "repository": {
     "type": "git",
