@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixelateddeveloper/zen.git"
+    "url": "https://github.com/pixelateddeveloper/zen-ghost-theme.git"
   },
-  "bugs": "https://github.com/pixelateddeveloper/zen.git/issues",
+  "bugs": "https://github.com/pixelateddeveloper/zen-ghsot-theme.git/issues",
   "config": {
       "posts_per_page": 6
   },
