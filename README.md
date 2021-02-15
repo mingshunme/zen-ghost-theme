@@ -1,11 +1,14 @@
-![Master version](https://img.shields.io/github/package-json/v/Canitia/zen/master?style=flat-square)
-![License](https://img.shields.io/github/license/Canitia/zen?style=flat-square)
+![Master version](https://img.shields.io/github/package-json/v/PixelatedDeveloper/zen/master?style=flat-square)
+![License](https://img.shields.io/github/license/PixelatedDeveloper/zen?style=flat-square)
 
 # 'Project' Zen
-Zen is a rebuilt version of Cambre implementing newer design guidelines. To not make Cambre drasticly different i decided to seperate the two themes.
+Zen is a rebuilt version of Cambre implementing newer design guidelines. The updated design brings the theme into the 2020s.
 
-# Main Features
-- UI optimised for different form factors (phone/tablet/pc)
+## 📷 Screenshot
+![Zen main](https://github.com/PixelatedDeveloper/zen/raw/master/assets/screenshot-desktop.png)
+
+## 📃 Main Features
+- Responsive UI
 - Ability to set your own publication icon and publication logo.
 - Navigation configurable via navigation-section in Ghost panel.
 - Author section at the bottom of each post includes avatar, socials and user bio.
@@ -13,14 +16,6 @@ Zen is a rebuilt version of Cambre implementing newer design guidelines. To not 
 - Set social media links through Ghost settings panel (they will show in the footer)
 - Translation support!
 
-# Zen's base
-Zen uses the following libraries;
-- Bootstrap v4.5.x
-- JQuery
-- Font Awesome 5
-
-# Theme requirements
-- Cambre **requires** Ghost version **4.0.0** or higher to install and work as intended. 
-- Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
-
-![Zen main](https://github.com/canitia/zen/raw/master/assets/screenshot-desktop.png)
+## 🌎 Localisation
+- English
+- Dutch

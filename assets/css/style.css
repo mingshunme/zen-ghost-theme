@@ -175,7 +175,6 @@ p > em > a:hover {
 .logo-nav {
   height: 55px;
   max-width: 150px;
-  border-radius: 150px;
 }
 
 /* color of clickable header */
@@ -339,7 +338,7 @@ img.logo {
 
 .homepage-image {
   object-fit: cover;
-  width: 100%;
+  width: 100vw;
   max-width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -370,6 +369,7 @@ POST/ARTICLE CARD UI - main
   margin-left: auto;
   margin-right: auto;
   border: 0 !important;
+  min-width: 100% !important;
 }
 
 .theme-row-top {
