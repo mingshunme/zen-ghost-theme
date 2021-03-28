@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{@site.lang}}">
+<html lang="{{@site.locale}}">
 
 <head>
   <title>{{meta_title}}</title>
@@ -37,7 +37,7 @@
 
       {{#is "author"}}
       <div class="tag_head_wrap">
-        {{#author}}
+        {{#primary_author}}
         <div class="tag_heading text-center">
           <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" alt="{{name}}" title="{{name}}" class="tag-image" />
           <h1 class="text-center tag-title">{{name}}</h1>
@@ -45,7 +45,7 @@
           {{#if twitter}}<a href="https://twitter.com/{{twitter}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-twt"><i class="fab fa-twitter-square"></i>Twitter</a>{{/if}}
           {{#if facebook}}<a href="https://facebook.com/{{facebook}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-fb"><i class="fab fa-facebook-square"></i>Facebook</a>{{/if}}
         </div>
-        {{/author}}
+        {{/primary_author}}
       </div>
       {{/is}}
 

@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/PixelatedDeveloper/zen?style=flat-square)
 
 # 'Project' Zen
-Zen is a rebuilt version of Cambre implementing newer design guidelines. The updated design brings the theme into the 2020s.
+Zen is the rebuilt version of Cambre, implementing newer design guidelines, and a updated design. Supports Ghost 3.38 and up (including new 4.0 release) of Ghost.
 
 ## 📷 Screenshot
 ![Zen main](https://github.com/PixelatedDeveloper/zen/raw/master/assets/screenshot-desktop.png)
