@@ -1,11 +1,11 @@
-![Master version](https://img.shields.io/github/package-json/v/SpookThemes/zen/master?style=flat-square)
-![License](https://img.shields.io/github/license/SpookThemes/zen?style=flat-square)
+![Master version](https://img.shields.io/github/package-json/v/SpookThemes/zen-ghost-theme/master?style=flat-square)
+![License](https://img.shields.io/github/license/SpookThemes/zen-ghost-theme?style=flat-square)
 
 # 'Project' Zen
 Zen is the rebuilt version of Cambre, implementing newer design guidelines, and a updated design. Supports Ghost 3.38 and up (including new 4.0 release) of Ghost.
 
 ## 📷 Screenshot
-![Zen main](https://github.com/SpookThemes/zen/raw/master/assets/screenshot-desktop.png)
+![Zen main](https://github.com/SpookThemes/zen-ghost-theme/raw/master/assets/screenshot-desktop.png)
 
 ## 📃 Main Features
 - Responsive UI
