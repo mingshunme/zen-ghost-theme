@@ -1055,6 +1055,11 @@ ul {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width: 575px) {
+
+  .navbar {
+    padding: .5rem 1rem !important;
+  }
+
   .headerurl,
   .nav-link {
     text-shadow: none;
@@ -1124,6 +1129,10 @@ ul {
 /* mobile devices */
 
 @media (max-width: 767px) and (min-width: 576px) {
+  .navbar {
+    padding: .5rem 1rem !important;
+  }
+
   .navbar-collapse .navbar-nav .menu-item {
     background: white;
   }
