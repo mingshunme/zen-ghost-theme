@@ -213,6 +213,11 @@ img.logo {
   width: auto;
 }
 
+.navbar {
+  padding: 0 !important;
+  border-bottom: 1px solid #ebebeb;
+}
+
 .navbar .dropdown-menu li {
   width: 100%;
   margin-left: 0 !important;
