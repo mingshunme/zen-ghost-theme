@@ -156,10 +156,6 @@ p > em > a:hover {
 
 *****************************************/
 
-.main-content {
-  margin-top: 10px;
-}
-
 .max-content-width {
 	max-width: 720px;
 	margin-left: auto;
@@ -345,7 +341,7 @@ img.logo {
   object-fit: cover;
   width: 100vw;
   max-width: 100%;
-  margin-top: 20px;
+
   margin-bottom: 20px;
 }
 
@@ -1192,10 +1188,6 @@ ul {
     font-size: 180% !important;
   }
 
-  .main-content {
-    margin-top: 30px;
-  }
-
   .avatar-page-author {
     margin-top: 10px;
   }
@@ -1249,10 +1241,6 @@ ul {
   .content-images,
   .content-images-individual {
     object-fit: cover;
-  }
-
-  .main-content {
-    margin-top: 30px;
   }
 
   .avatar-page-author {
