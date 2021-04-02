@@ -156,10 +156,6 @@ p > em > a:hover {
 
 *****************************************/
 
-.main-content {
-  margin-top: 10px;
-}
-
 .max-content-width {
 	max-width: 720px;
 	margin-left: auto;
@@ -173,7 +169,7 @@ p > em > a:hover {
 *****************************************/
 
 .logo-nav {
-  height: 55px;
+  height: 35px;
   max-width: 150px;
 }
 
@@ -211,6 +207,10 @@ img.logo {
   margin-right: 5px;
   max-width: 100%;
   width: auto;
+}
+
+.navbar {
+  border-bottom: 1px solid #ebebeb;
 }
 
 .navbar .dropdown-menu li {
@@ -288,6 +288,7 @@ img.logo {
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
+  margin-top: 20px;
 }
 
 .tag-title {
@@ -340,7 +341,6 @@ img.logo {
   object-fit: cover;
   width: 100vw;
   max-width: 100%;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -1050,6 +1050,11 @@ ul {
 
 /* For the people that have phones reporting very low resolutions */
 @media (max-width: 575px) {
+
+  .navbar {
+    padding: .5rem 1rem !important;
+  }
+
   .headerurl,
   .nav-link {
     text-shadow: none;
@@ -1119,6 +1124,10 @@ ul {
 /* mobile devices */
 
 @media (max-width: 767px) and (min-width: 576px) {
+  .navbar {
+    padding: .5rem 1rem !important;
+  }
+
   .navbar-collapse .navbar-nav .menu-item {
     background: white;
   }
@@ -1178,10 +1187,6 @@ ul {
     font-size: 180% !important;
   }
 
-  .main-content {
-    margin-top: 30px;
-  }
-
   .avatar-page-author {
     margin-top: 10px;
   }
@@ -1235,10 +1240,6 @@ ul {
   .content-images,
   .content-images-individual {
     object-fit: cover;
-  }
-
-  .main-content {
-    margin-top: 30px;
   }
 
   .avatar-page-author {
