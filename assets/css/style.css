@@ -208,10 +208,6 @@ img.logo {
   width: auto;
 }
 
-.navbar {
-  border-bottom: 1px solid var(--grey-accent2);
-}
-
 .navbar .dropdown-menu li {
   width: 100%;
   margin-left: 0 !important;
