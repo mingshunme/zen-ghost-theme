@@ -1,0 +1,17 @@
+<div class="tag_head_wrap w-100">
+    {{#tag}}
+    <div class="tag_heading text-center">
+        <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" alt="{{name}}" title="{{name}}" class="tag-image" />
+        <h1 class="text-center tag-title">{{name}}</h1>
+        {{#if description}}<p class="tag-description">{{description}}</p>{{/if}}
+    </div>
+    {{/tag}}
+</div>
+
+<div class="main-content">
+    <h1 class="text-center post-title">{{#tag}}{{name}}{{/tag}}</h1>
+    {{> 'post/card-basic'}}
+    {{#if pagination}}
+     {{pagination}}
+    {{/if}}
+</div>
