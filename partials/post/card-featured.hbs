@@ -1,7 +1,7 @@
 <div class="row-featured d-none d-lg-flex row">
-  {{#get "posts" limit="4" filter="featured:true" include="tags" order="published_at desc" as |featured| }}
+  {{#get "posts" limit="3" filter="featured:true" include="tags" order="published_at desc" as |featured| }}
   {{#foreach featured}}
-  <div class="col-md-3">
+  <div class="col-md-4">
     {{#if tags}}{{#primary_tag}}<div class="tag"><a href="/tag/{{slug}}" alt="{{name}}" title="{{name}}">{{name}}</a></div>{{/primary_tag}}{{/if}}
     <a href="{{url}}">
       <img class="d-block row-item-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
