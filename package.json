@@ -1,7 +1,7 @@
 {
   "name": "zen",
   "description": "Zen",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "engines": {
       "ghost": ">=4.0.0",
       "ghost-api": "v4"
