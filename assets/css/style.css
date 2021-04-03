@@ -700,6 +700,8 @@ iframe {
 
 .author_wrap {
   padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: #ebebeb;
   border-radius: 10px;
   margin-left: auto;
