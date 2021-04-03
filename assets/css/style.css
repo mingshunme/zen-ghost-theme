@@ -415,7 +415,7 @@ POST/ARTICLE CARD UI - main
 .members-badge {
   background: var(--accentcolor);
   padding: 5px;
-  margin-right: 15px;
+  margin-left: 15px;
   border-radius: 5px;
   color: white;
 }
@@ -423,7 +423,7 @@ POST/ARTICLE CARD UI - main
 .premium-badge {
   background: #ffbe0d;
   padding: 5px;
-  margin-right: 15px;
+  margin-left: 15px;
   border-radius: 5px;
   color: black;
 }
