@@ -3,7 +3,6 @@
 *****************************************/
 :root {
 	/* general accent colors */
-	--accentcolor: #056c17;
 	--accent-error-color: #cc0000;
 	--grey-accent: #aaa;
 	--grey-accent2: #ebebeb;
@@ -106,7 +105,7 @@ p > em > a {
 p > a:focus,
 p > a:hover,
 p > em > a:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
 }
 
 .container-fluid {
@@ -189,7 +188,7 @@ p > em > a:hover {
 }
 
 .nav-link:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
   text-shadow: none;
 }
 
@@ -392,7 +391,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title a:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
   text-decoration: none;
 }
 
@@ -409,11 +408,11 @@ POST/ARTICLE CARD UI - main
 	font-weight: 600;
 	font-size: 11px;
 	text-transform: uppercase;
-	color: var(--accentcolor) !important;
+	color: var( --ghost-accent-color) !important;
 }
 
 .members-badge {
-  background: var(--accentcolor);
+  background: var( --ghost-accent-color);
   padding: 5px;
   margin-left: 15px;
   border-radius: 5px;
@@ -436,7 +435,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .author-name:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
 }
 
 .post-content {
@@ -933,7 +932,7 @@ img.avatar {
 
 .pagination div a:hover {
   color: var(--grey-accent2);
-  background: var(--accentcolor) !important;
+  background: var( --ghost-accent-color) !important;
 }
 
 .pagination div a:hover i {
@@ -1006,7 +1005,7 @@ img.avatar {
 }
 
 .collection-item a:hover {
-	color: var(--accentcolor);
+	color: var( --ghost-accent-color);
 }
 
 /* **************************************
