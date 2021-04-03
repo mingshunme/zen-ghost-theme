@@ -13,6 +13,7 @@
   </div>
 {{/author}}
 <div class="main-content">
+    <h1 class="text-center post-title">{{t "Written by"}} {{#author}}{{name}}{{/author}}</h1>
     {{> 'post/card-basic'}}
     {{#if pagination}}
      {{pagination}}
