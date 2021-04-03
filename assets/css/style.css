@@ -419,6 +419,13 @@ POST/ARTICLE CARD UI - main
   color: white;
 }
 
+.premium-badge {
+  background: #ffbe0d;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+
 .author-name {
   color: var(--grey-accent);
   text-transform: capitalize;
