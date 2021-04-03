@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/SpookThemes/zen-ghost-theme?style=flat-square)
 
 # 'Project' Zen
-Zen is the rebuilt version of Cambre, implementing newer design guidelines, and a updated design. Supports Ghost 3.38 and up (including new 4.0 release) of Ghost.
+Zen is the rebuilt version of Cambre, implementing newer design guidelines, and a updated design. Supports Ghost 4.0 and up of Ghost.
 
 ## 📷 Screenshot
 ![Zen main](https://github.com/SpookThemes/zen-ghost-theme/raw/master/assets/screenshot-desktop.png)
