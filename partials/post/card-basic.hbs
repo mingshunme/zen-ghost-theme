@@ -3,7 +3,7 @@
   <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
       images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>
 
-  <div class="card max-content-width card-{{visibility}}">
+  <div class="card max-content-width post-access-{{visibility}}">
     <div class="col">
       <div class="card-block">
         <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
@@ -12,6 +12,7 @@
       <hr />
       <div class="post-options">
         <a class="post-options-url" href="{{url}}"><i class="fas fa-play"></i>{{t "Read More"}}</a>
+        {{#members}}
         {{#has visibility="members-only"}}
           <span class="members-badge">{{t "Members-Only"}}</span>        
         {{/has}}
