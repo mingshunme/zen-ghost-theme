@@ -862,7 +862,7 @@ iframe {
 }
 
 img.avatar {
-	border-radius: 150px;
+	border-radius: 15px;
 	width: 100%;
 	display: block;
 	padding: 10px;
