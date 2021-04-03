@@ -700,7 +700,8 @@ iframe {
 
 .author_wrap {
   padding: 30px;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .author_wrap p {
