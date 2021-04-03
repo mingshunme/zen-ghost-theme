@@ -292,7 +292,6 @@ img.logo {
 
 .tag-title {
 	font-size: 2.5em;
-	text-transform: uppercase;
 	font-family: "Hind Madurai", sans-serif !important;
 	text-shadow: none;
 	color: var(--text-color) !important;
