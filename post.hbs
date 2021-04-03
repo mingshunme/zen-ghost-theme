@@ -12,11 +12,14 @@
                 </div>
           </div>
 
+           {{#if @access}}
          <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
+
           {{#if feature_image}}
             <img class="tag_heading text-center" src="{{img_url feature_image}}" title="{{title}}" alt="{{title}}" />
           {{/if}}
           </div>
+          {{/if}}
 
           <div class="post-content post-access-{{visibility}} max-content-width">
             {{content}}
