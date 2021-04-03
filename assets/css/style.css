@@ -263,7 +263,7 @@ img.logo {
 
 *****************************************/
 .tag {
-  background: rgba(5, 108, 23, 0.85);
+  background: var(--ghost-accent-color);
   position: absolute;
   right: 30px;
   top: 20px;
