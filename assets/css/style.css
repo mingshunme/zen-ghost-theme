@@ -412,6 +412,13 @@ POST/ARTICLE CARD UI - main
 	color: var(--accentcolor) !important;
 }
 
+.members-badge {
+  background: var(--accentcolor);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
 .author-name {
   color: var(--grey-accent);
   text-transform: capitalize;
