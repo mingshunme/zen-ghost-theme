@@ -332,8 +332,7 @@ img.logo {
   margin-left: auto;
   margin-right: auto;
   background: white;
-  border: 2px solid var(--grey-accent2);
-  border-radius: 5px;
+  border-radius: 10px 10px 0 0;
   transition: all 0.2s ease-in-out;
   object-fit: cover !important;
   width: 100%;
