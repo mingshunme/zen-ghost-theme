@@ -3,8 +3,8 @@
   "description": "Zen",
   "version": "1.0.6",
   "engines": {
-      "ghost": ">=3.40.0",
-      "ghost-api": "v3"
+      "ghost": ">=4.0",
+      "ghost-api": "v4"
   },
   "license": "MIT",
   "screenshots": {
