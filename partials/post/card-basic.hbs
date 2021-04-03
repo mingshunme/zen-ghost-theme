@@ -15,7 +15,7 @@
         <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
         <div class="post-author">
         {{#foreach authors}}
-        <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset " images/fallback-user.jpg"}}{{/if}}"
+        <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}"
           class="homepage-avatar" alt="{{name}}" title="{{name}}">
         <a href="{{url}}" title="{{t "Written by"}} {{name}}" class="author-name">{{name}}</a>
         {{/foreach}}
