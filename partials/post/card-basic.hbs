@@ -12,6 +12,7 @@
       <hr />
       <div class="post-options">
         <a class="post-options-url" href="{{url}}"><i class="fas fa-play"></i>{{t "Read More"}}</a>
+        {{#if @member}}<span class="members-badge">{{t "Members-Only"}}</span>{{/if}}
         <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
         <div class="post-author">
         {{#foreach authors}}
