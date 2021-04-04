@@ -311,11 +311,14 @@ img.logo {
 
 .featured-title {
   font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.small-post-wrap {
   background: #f8f8f8;
   border-radius: 0 0 10px 10px;
   padding: 5px;
   border: 1px solid var(--grey-accent2);
-  font-size: 0.9rem;
 }
 
 /* **************************************
@@ -481,6 +484,7 @@ POST/ARTICLE CARD UI - main
 
 .row-featured {
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 /* ######################################
