@@ -10,9 +10,9 @@
     "Recent": "Recent",
     "Most used tags": "Populaire tags",
     "Read": "Lees meer",
-    "< 1 min read": "< 1 min leestijd",
-    "1 min read": "1 min leestijd",
-    "% min read": "% min leestijd",
+    "Takes % minutes": "Leestijd % minutes",
+    "Only a minute": "Klein minuutje",
+    "% min read": "Leestijd % minuten",
     "Back": "Terug",
     "Newer Posts": "Nieuwere posts",
     "of": "van",
@@ -41,5 +41,11 @@
     "Read More": "Lees Meer",
     "No posts available": "Geen posts beschikbaar",
     "by": "van",
-    "Go to": "Ga naar"
+    "Go to": "Ga naar",
+    "Members-Only": "Members-Only",
+    "Premium": "Premium",
+    "My Account": "Mijn Account",
+    "Sign-in": "Inloggen",
+    "Sign-out": "Uitloggen",
+    "More": "Meer"
 }

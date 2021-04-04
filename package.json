@@ -1,10 +1,10 @@
 {
   "name": "zen",
-  "description": "Zen",
-  "version": "1.0.5",
+  "description": "Zen is a modern blog theme for Ghost.",
+  "version": "2.0.0",
   "engines": {
-      "ghost": ">=3.40.0",
-      "ghost-api": "v3"
+      "ghost": ">=4.0.0",
+      "ghost-api": "v4"
   },
   "license": "MIT",
   "screenshots": {

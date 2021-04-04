@@ -3,7 +3,6 @@
 *****************************************/
 :root {
 	/* general accent colors */
-	--accentcolor: #056c17;
 	--accent-error-color: #cc0000;
 	--grey-accent: #aaa;
 	--grey-accent2: #ebebeb;
@@ -106,7 +105,7 @@ p > em > a {
 p > a:focus,
 p > a:hover,
 p > em > a:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
 }
 
 .container-fluid {
@@ -189,7 +188,7 @@ p > em > a:hover {
 }
 
 .nav-link:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
   text-shadow: none;
 }
 
@@ -209,10 +208,6 @@ img.logo {
   width: auto;
 }
 
-.navbar {
-  border-bottom: 1px solid #ebebeb;
-}
-
 .navbar .dropdown-menu li {
   width: 100%;
   margin-left: 0 !important;
@@ -226,6 +221,14 @@ img.logo {
 
 .nav-link {
   color: var(--url-color) !important;
+}
+
+.dropdown-item {
+  font-weight: bold !important;
+}
+
+.dropdown-item:hover {
+  background: unset !important;
 }
 
 .nav-seperator {
@@ -264,7 +267,7 @@ img.logo {
 
 *****************************************/
 .tag {
-  background: rgba(5, 108, 23, 0.85);
+  background: var(--ghost-accent-color);
   position: absolute;
   right: 30px;
   top: 20px;
@@ -287,14 +290,12 @@ img.logo {
 .tag-image {
 	width: 100px;
 	height: 100px;
-	border-radius: 50px;
+	border-radius: 15px;
   margin-top: 20px;
 }
 
 .tag-title {
-	font-size: 2.5em;
-	text-transform: uppercase;
-	font-family: "Hind Madurai", sans-serif !important;
+	font-size: 1.5em;
 	text-shadow: none;
 	color: var(--text-color) !important;
 	padding: 10px;
@@ -304,13 +305,25 @@ img.logo {
 }
 
 .tag-description {
-	font-family: "Hind Madurai", sans-serif !important;
 	color: var(--text-color) !important;
 	font-size: 1rem;
 }
 
 .featured-title {
   font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.featured-title a,
+.featured-title a:hover {
+  text-decoration: none;
+}
+
+.small-post-wrap {
+  background: #f8f8f8;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
+  border: 1px solid var(--grey-accent2);
 }
 
 /* **************************************
@@ -328,8 +341,7 @@ img.logo {
   margin-left: auto;
   margin-right: auto;
   background: white;
-  border: 2px solid var(--grey-accent2);
-  border-radius: 5px;
+  border-radius: 10px 10px 0 0;
   transition: all 0.2s ease-in-out;
   object-fit: cover !important;
   width: 100%;
@@ -342,6 +354,7 @@ img.logo {
   width: 100vw;
   max-width: 100%;
   margin-bottom: 20px;
+  border-radius: 15px 15px 0 0;
 }
 
 .postdate > a,
@@ -392,7 +405,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title a:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
   text-decoration: none;
 }
 
@@ -405,11 +418,31 @@ POST/ARTICLE CARD UI - main
 	align-items: center;
 }
 
+.post-options-inside-wrap {
+  margin-bottom: 0 !important;
+}
+
 .post-options-url {
 	font-weight: 600;
 	font-size: 11px;
 	text-transform: uppercase;
-	color: var(--accentcolor) !important;
+	color: var( --ghost-accent-color) !important;
+}
+
+.members-badge {
+  background: var( --ghost-accent-color);
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.premium-badge {
+  background: #ffbe0d;
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: black;
 }
 
 .author-name {
@@ -420,10 +453,11 @@ POST/ARTICLE CARD UI - main
 }
 
 .author-name:hover {
-  color: var(--accentcolor) !important;
+  color: var( --ghost-accent-color) !important;
 }
 
 .post-content {
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 
@@ -458,7 +492,8 @@ POST/ARTICLE CARD UI - main
 }
 
 .row-featured {
-  padding-top: 32px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 /* ######################################
@@ -684,7 +719,9 @@ iframe {
 
 .author_wrap {
   padding: 30px;
-  width: 100%;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 20px;
+  background: #f8f8f8;
 }
 
 .author_wrap p {
@@ -725,7 +762,10 @@ iframe {
 }
 
 .tag_heading {
-	max-width: 100%;
+  padding: 30px;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 20px;
+  background: #f8f8f8;
 }
 
 .tag_heading > .posttitle {
@@ -746,7 +786,7 @@ iframe {
 	text-decoration: none;
 	color: var(--regular-white);
 	text-transform: uppercase;
-	background: rgba(5, 108, 23, 0.85);
+	background: var( --ghost-accent-color);
 	padding: 10px;
 	border-radius: 10px;
 	z-index: 10;
@@ -840,7 +880,7 @@ iframe {
 }
 
 img.avatar {
-	border-radius: 150px;
+	border-radius: 15px;
 	width: 100%;
 	display: block;
 	padding: 10px;
@@ -850,13 +890,13 @@ img.avatar {
 .homepage-avatar {
   width: 24px;
   height: 24px;
-  border-radius: 25px;
+  border-radius: 5px;
   margin-right: 5px;
 }
 
 .avatar-page {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 15px;
 }
 
@@ -916,7 +956,7 @@ img.avatar {
 
 .pagination div a:hover {
   color: var(--grey-accent2);
-  background: var(--accentcolor) !important;
+  background: var( --ghost-accent-color) !important;
 }
 
 .pagination div a:hover i {
@@ -976,10 +1016,6 @@ img.avatar {
 	padding: 3px;
 }
 
-.related div p {
-    margin-left: 15px;
-}
-
 .related .collection {
     padding-left: 0;
 }
@@ -989,7 +1025,7 @@ img.avatar {
 }
 
 .collection-item a:hover {
-	color: var(--accentcolor);
+	color: var( --ghost-accent-color);
 }
 
 /* **************************************
@@ -1351,7 +1387,7 @@ footer div a .fa-rss-square:hover {
 
 .fa-clock,
 .fa-user,
-.fa-book {
+.fa-calendar {
   color: black;
 }
 
