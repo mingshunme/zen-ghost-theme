@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/SpookThemes/zen-ghost-theme?style=flat-square)
 
 # Zen for Ghost
-Zen is a blog theme for the Ghost platform. Supports Ghost 4.0 and up of Ghost.
+Zen is a blog theme for the Ghost platform. Zen supports Ghost 4.0 and up.
 
 ## 📷 Screenshot
 ![Zen main](https://github.com/SpookThemes/zen-ghost-theme/raw/master/assets/screenshot-desktop.png)
