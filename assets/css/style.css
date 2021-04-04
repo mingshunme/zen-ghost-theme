@@ -314,6 +314,11 @@ img.logo {
   font-size: 0.9rem;
 }
 
+.featured-title a,
+.featured-title a:hover {
+  text-decoration: none;
+}
+
 .small-post-wrap {
   background: #f8f8f8;
   border-radius: 0 0 10px 10px;
