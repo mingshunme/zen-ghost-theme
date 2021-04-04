@@ -1,6 +1,6 @@
 {
   "name": "zen",
-  "description": "Zen is a simplistic, but modern blog theme for Ghost.",
+  "description": "Zen is a modern blog theme for Ghost.",
   "version": "2.0.0",
   "engines": {
       "ghost": ">=4.0.0",
