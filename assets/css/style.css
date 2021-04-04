@@ -224,7 +224,7 @@ img.logo {
 }
 
 .dropdown-item {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .dropdown-item:hover {
