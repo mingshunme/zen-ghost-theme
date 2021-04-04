@@ -223,6 +223,14 @@ img.logo {
   color: var(--url-color) !important;
 }
 
+.dropdown-item {
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background: unset !important;
+}
+
 .nav-seperator {
 	display: flex;
 	margin: 0 15px;
