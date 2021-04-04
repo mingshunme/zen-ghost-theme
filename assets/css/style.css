@@ -778,6 +778,10 @@ iframe {
   font-family: "Hind Madurai", sans-serif !important;
 }
 
+.post-tags-wrapper {
+  margin-top: 10px;
+}
+
 .tagslist {
   margin-bottom: 35px;
 }
