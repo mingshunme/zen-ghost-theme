@@ -413,6 +413,10 @@ POST/ARTICLE CARD UI - main
 	align-items: center;
 }
 
+.post-options-inside-wrap {
+  margin-bottom: 0 !important;
+}
+
 .post-options-url {
 	font-weight: 600;
 	font-size: 11px;
