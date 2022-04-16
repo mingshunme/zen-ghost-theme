@@ -4,6 +4,9 @@
 # Zen for Ghost
 Zen is a blog theme for the Ghost platform. Zen supports Ghost 4.0 and up.
 
+# Support Window
+Initial release - April 2022
+
 ## 📷 Screenshot
 ![Zen main](https://github.com/SpookThemes/zen-ghost-theme/raw/master/assets/screenshot-desktop.png)
 
