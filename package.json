@@ -1,7 +1,7 @@
 {
   "name": "zen",
   "description": "Zen is a modern blog theme for Ghost.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "engines": {
       "ghost": ">=4.0.0",
       "ghost-api": "v4"
@@ -12,15 +12,15 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "SpookThemes",  
-    "email": "support@spookthemes.com",
-    "url": "https://spookthemes.com"
+    "name": "Michael Boumann",  
+    "email": "michael@boumann.dev",
+    "url": "https://michaelboumann.nl"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spookthemes/zen-ghost-theme.git"
+    "url": "https://github.com/boumannm/zen-ghost-theme.git"
   },
-  "bugs": "https://github.com/spookthemes/zen-ghost-theme.git/issues",
+  "bugs": "https://github.com/boumannm/zen-ghost-theme.git/issues",
   "config": {
       "posts_per_page": 6
   },
