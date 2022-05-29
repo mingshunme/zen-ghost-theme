@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spookthemes/zen-ghost-theme.git"
+    "url": "https://github.com/boumannm/zen-ghost-theme.git"
   },
-  "bugs": "https://github.com/spookthemes/zen-ghost-theme.git/issues",
+  "bugs": "https://github.com/boumannm/zen-ghost-theme.git/issues",
   "config": {
       "posts_per_page": 6
   },
